@@ -1,0 +1,27 @@
+{
+  "name": "@orbinair/frontend",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "description": "Frontend for orbinair.com app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbinair/frontend.git"
+  },
+  "author": {
+    "name": "Orbinair",
+    "email": "orbinair@yandex.ru"
+  },
+  "contributors": [
+    "Alexander Medvedev <hopqe@yandex.ru>",
+    "Kirill Sedunov <kirill.sedunov@outlook.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbinair/frontend/issues"
+  },
+  "homepage": "https://github.com/orbinair/frontend#readme"
+}
