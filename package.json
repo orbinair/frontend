@@ -5,11 +5,11 @@
   "description": "Frontend for orbinair.com app",
   "dependencies": {
     "@babel/core": "^7.8.6",
+    "@mdi/js": "^5.0.45",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
-    "babel-loader": "^8.0.6",
-    "react": "^16.13.0",
+    "prop-types": "^15.7.2",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
@@ -49,6 +49,11 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.3.14"
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "react": "^16.13.0",
+    "react-is": "^16.13.0"
   }
 }
