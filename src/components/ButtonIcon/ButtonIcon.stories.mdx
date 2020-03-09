@@ -1,0 +1,28 @@
+﻿import { Preview, Meta, Story, Props } from '@storybook/addon-docs/blocks';
+import { withKnobs, text, select, number, color } from "@storybook/addon-knobs";
+import ButtonIcon from './ButtonIcon';
+import Icon from '../Icon/Icon';
+import * as mdiIcons from '@mdi/js';
+
+<Meta title="buttons/ButtonIcon" component={ButtonIcon} decorators={[withKnobs]} />
+
+# ButtonIcon
+
+Basic icon button component.
+
+<Preview>
+  <Story name="Sandbox">
+    <ButtonIcon
+      className={text('className', '')}
+    >
+      <Icon
+        className={text('className', '', 'Icon knobs')}
+        path={select('path', mdiIcons, mdiIcons.mdiPlus, 'Icon knobs')}
+        size={number('size', 24, {}, 'Icon knobs')}
+        color={color('color', '#333333', 'Icon knobs')}
+      />
+    </ButtonIcon>
+  </Story>
+</Preview>
+
+<Props of={ButtonIcon} />
